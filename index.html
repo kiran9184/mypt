@@ -1,9 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>My AWS Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello from AWS DevOps Project</h1>
+
+    <section class="hero">
+        <h1>Welcome to My Static Website</h1>
+        <p>Hosted on AWS S3 with GitHub Actions CI/CD</p>
+
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <section class="about">
+        <h2>About This Project</h2>
+
+        <p>
+            This project demonstrates Static Website Hosting using AWS S3,
+            GitHub Actions, and CI/CD automation.
+        </p>
+    </section>
+
+    <footer class="footer">
+        <p>Created by Kiran | AWS DevOps Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
